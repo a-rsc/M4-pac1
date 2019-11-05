@@ -1,0 +1,93 @@
+fieldset {
+    max-width: 96%;
+    width: 96%;
+
+    margin-bottom: 15px;
+    padding: 15px 2%;
+
+    border: 1px solid black;
+}
+legend {
+    padding: 10px 2%;
+    background-color: yellow;
+}
+.form-group {
+    width: 100%;
+    overflow: hidden;
+
+    margin-bottom: 1px;
+    padding: 10px 0;
+
+
+    background-color: orange;
+}
+.form-group > label {
+    float: left;
+
+    max-width: 200px;
+    width: 30%;
+
+    padding: 6px 1%;
+
+    text-align: right;
+
+    cursor: pointer;
+    background-color: yellow;
+}
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;/
+}
+.form-group-input input[type=text],
+.form-group-input input[type=email],
+.form-group-input input[type=password],
+.form-group-input input[type=tel] {
+    padding: 3px;
+}
+.form-group-input input[type=date] {
+    padding: 0px 2px;
+}
+.form-group-input input[type=file] {
+    padding: 4px 2px 3px;
+
+    font-size: 0.875em;
+}
+.form-group-input .form-group-select {
+    padding: 3px 3px 4px;
+}
+
+.form-group-input input[type=text],
+.form-group-input input[type=email],
+.form-group-input input[type=password],
+.form-group-input input[type=date],
+.form-group-input input[type=tel],
+.form-group-input input[type=file],
+.form-group-input .form-group-select {
+    max-width: 500px;
+    width: 60%;
+}
+.form-group-input span {
+    margin-left: 5px;
+    padding: 0;
+
+    color: gold;
+}
+.form-group-input input[type=radio] {
+    margin: 7px 3px 0;
+}
+.form-group-checkbox label {
+    float: none;
+
+    text-align: center;
+
+    background-color: color;
+}
+.form-group-checkbox,
+.form-group-submit {
+    text-align: center;
+}

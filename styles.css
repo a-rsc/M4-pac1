@@ -1,0 +1,65 @@
+html {
+    background-color: #efefef;
+}
+* {
+    font-family: "Times New Roman", Times, serif;
+    text-size-adjust: 100%;
+}
+body {
+    max-width: 1080px;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 15px 10px;
+
+    background-color: lime;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 15px 0;
+
+    font-weight: bold;
+}
+h1 {
+    font-size: 1.6em;
+}
+h2 {
+    font-size: 1.4em;
+}
+h3, h4 {
+    font-size: 1.2em;
+}
+h5, h6 {
+    font-size: 1.1em;
+}
+p {
+    font-size: 1em;
+}
+header h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+header h2 {
+    text-align: center;
+}
+header h3 {
+    text-align: right;
+}
+header time {
+    text-align: right;
+
+    display: block;
+}
+section {
+}
+p {
+    margin: 15px 0px;
+    padding: 3px 5px;
+
+    line-height: 1.7em;
+
+    text-align: justify;
+}
+p strong {
+    font-weight: bold;
+}
